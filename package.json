@@ -1,0 +1,33 @@
+{
+  "name": "rollup-plugin-preval",
+  "version": "0.0.1",
+  "description": "evaluate constant expressions on compile-time",
+  "main": "src/rollup-plugin-preval.js",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/milahu/rollup-plugin-preval",
+  "author": "milahu",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "rollup",
+    "preval",
+    "preprocessor",
+    "preprocess",
+    "compiletime",
+    "compile-time",
+    "compile",
+    "time",
+    "pre",
+    "eval",
+    "constant",
+    "expressions"
+  ],
+  "dependencies": {
+    "acorn": "^8.0.4",
+    "estree-walker": "^2.0.1",
+    "magic-string": "^0.25.7",
+    "tosource": "^2.0.0-alpha.2"
+  }
+}
